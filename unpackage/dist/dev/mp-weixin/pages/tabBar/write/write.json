@@ -1,0 +1,14 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-swiper-dot": "../../../uni_modules/uni-swiper-dot/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-fab": "../../../uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "uni-easyinput": "../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-forms-item": "../../../uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "uni-forms": "../../../uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-card": "../../../uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-pagination": "../../../uni_modules/uni-pagination/components/uni-pagination/uni-pagination",
+    "uni-section": "../../../uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

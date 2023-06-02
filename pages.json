@@ -1,0 +1,72 @@
+{
+	"pages": [{
+		"path": "pages/tabBar/home/home",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/tabBar/classify/classify",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/tabBar/other/other",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/tabBar/write/write",
+		"style": {
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "瑶一瑶小可爱的表情包",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff",
+		"app-plus": {
+			"background": "#fff"
+		}
+	},
+
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#e87324",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "20px",
+		"fontSize": "15px",
+		"iconWidth": "7px",
+		"spacing": "3px",
+		"list": [{
+				"pagePath": "pages/tabBar/home/home",
+				"iconPath": "static/灰色文件夹.png",
+				"selectedIconPath": "static/橙色文件夹.png",
+				"text": "全部"
+			},
+			{
+				"pagePath": "pages/tabBar/classify/classify",
+				"iconPath": "static/灰色列表图标.png",
+				"selectedIconPath": "static/橙色列表.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabBar/other/other",
+				"iconPath": "static/已关注灰色.png",
+				"selectedIconPath": "static/已关注橙色.png",
+				"text": "其他"
+			},
+			{
+				"pagePath": "pages/tabBar/write/write",
+				"iconPath": "static/icon-edit-grey.png",
+				"selectedIconPath": "static/icon-edit-yell.png",
+				"text": "树洞"
+			}
+		]
+	}
+}

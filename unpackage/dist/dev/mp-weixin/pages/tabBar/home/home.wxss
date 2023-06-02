@@ -1,0 +1,81 @@
+/* 水平间距 */
+/* 水平间距 */
+.downloadPopupBut {
+  display: flex;
+  flex-direction: row;
+}
+.downloadPopupBut .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 35px;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.downloadPopupBut .button-text {
+  color: #7f7781;
+}
+.swiper-box {
+  height: 100px;
+}
+.banner-image {
+  width: 750rpx;
+  height: 100px;
+}
+.swiper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #fff;
+}
+.uni-margin-wrap {
+  width: 690px;
+  width: 100%;
+  height: 100px;
+}
+.swiper {
+  height: 100px;
+}
+.swiper-item {
+  display: block;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.grid-item-image {
+  width: 110px;
+  height: 110px;
+}
+.decoration {
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: #feb817;
+}
+.grid-dynamic-box {
+  margin-bottom: 5px;
+}
+.grid-item-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  padding: 3px 11px;
+}
+.grid-dot {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+}
+.swiper {
+  height: 420px;
+}

@@ -1,0 +1,1 @@
+{"bsonType":"object","permission":{"read":true,"create":true,"update":true,"delete":true},"properties":{"_id":{"description":"ID，系统自动生成"},"k_type":{"bsonType":"int","title":"宝贝id"},"info":{"bsonType":"string","title":"更新内容"},"show_time":{"bsonType":"string","title":"展示时间","trim":"both"},"create_time":{"bsonType":"timestamp","title":"创建时间戳","forceDefaultValue":{"$env":"now"}}}}
